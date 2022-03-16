@@ -7093,5 +7093,13 @@ defineJQueryPlugin(Toast);
 ;// CONCATENATED MODULE: ./src/page2.js
 
 
+var buttons = document.querySelectorAll("[data-carousel-button]");
+var boton1 = document.getElementById('boton3');
+
+function redirectPage1() {
+  window.location.href = "index.html";
+}
+
+boton1.addEventListener("click", redirectPage1);
 /******/ })()
 ;

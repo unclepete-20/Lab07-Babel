@@ -7129,11 +7129,11 @@ foto1.src = una_o;
 foto2.src = dosa_os;
 foto3.src = tresa_os;
 
-function redirectPage1() {
+function redirectPage2() {
   window.location.href = "page2.html";
 }
 
-boton1.addEventListener("click", redirectPage1);
+boton1.addEventListener("click", redirectPage2);
 buttons.forEach(function (button) {
   button.addEventListener("click", function () {
     var offset = button.dataset.carouselButton === "next" ? 1 : -1;

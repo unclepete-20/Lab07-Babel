@@ -19,11 +19,11 @@ foto1.src = imagen1;
 foto2.src = imagen2;
 foto3.src = imagen3;
 
-function redirectPage1() {
+function redirectPage2() {
     window.location.href = "page2.html";
   }
 
-boton1.addEventListener("click", redirectPage1);
+boton1.addEventListener("click", redirectPage2);
 
 buttons.forEach(button => {
   button.addEventListener("click", () => {
